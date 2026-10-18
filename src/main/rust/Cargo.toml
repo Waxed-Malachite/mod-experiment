@@ -1,0 +1,10 @@
+[package]
+name = "mod-experiment"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+jvm = { package = "rcj", git = "https://github.com/Waxed-Malachite/rustc_codegen_jvm" }
